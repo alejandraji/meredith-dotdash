@@ -1,4 +1,3 @@
-// FRONT END VANILLA JS
 // Fetches replit API wrapper
 const getBookSearchResults = (query, page) => {
   return fetch(`https://meredith-dotdashbackend.alejandraji.repl.co/search?query=${encodeURIComponent(query)}&page=${page}`)
